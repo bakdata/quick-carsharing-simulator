@@ -1,0 +1,7 @@
+### Project ###
+.vscode/*
+**/data/
+**/__pycache__/
+**/.idea/
+**/out/
+
