@@ -7,6 +7,7 @@ files:
 cd ./simulator
 mkdir ./data
 python -m car_sharing_simulator.vehicles_generator
+python -m car_sharing_simulator.coordinate_generator (set True for charging stations and False for destinations)
 python -m car_sharing_simulator.status_generator
 ```
 
