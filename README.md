@@ -20,7 +20,7 @@ curl -X POST --url <QUICK-HOST-ADDRESS>/ingest/vehicle \
     --data "@./data/vehicles.json"
 ```
 
-Ingestion of new status events can be started with `python -m car_sharing_simulator.status_generator`. The script
+Ingestion of new status events can be started with `python -m car_sharing_simulator.simulator`. The script
 expects the following environment variables:
 
 | Name               | Example                     | Required          |
