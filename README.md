@@ -7,8 +7,12 @@ files:
 cd ./simulator
 mkdir ./data
 python -m car_sharing_simulator.vehicles_generator
+python -m car_sharing_simulator.coordinate_generator 
 python -m car_sharing_simulator.status_generator
 ```
+For generating files with coordinates the coordinate_generator.py is used. It has a function generate(num_of_points,charging_station).
+When ```charging_station = True``` a file with charging station coordinates will be generated.
+When ```charging_station = False``` it will be generated a file with random locations that the cars will visit.
 
 There should be two files named `vehicles.json` and `status.jsonl` in the `./data/` directory. Start with
 ingesting all vehicles:
